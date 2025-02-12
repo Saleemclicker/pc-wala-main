@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap');
+
+body {
+    font-family: 'Baloo Tamma 2', cursive;
+    padding: 0;
+    margin: 0;
+    background-color: #d2d2d2;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.main-box {
+    margin-top: 80px;
+    background-color: whitesmoke;
+    height: 550px; /* Increased height to fit additional fields */
+    width: 900px;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    border-radius: 30px;
+}
+
+.logo-part img {
+    height: 50%;
+    width: 50%;
+    margin-top: 32%;
+    margin-left: 24%;
+}
+
+.logo-part {
+    background-color: black;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px; /* Adjusted for better positioning */
+}
+
+.form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form input {
+    font-family: 'Baloo Tamma 2', cursive;
+    margin-top: 1px; /* Reduced margin to fit more fields comfortably */
+    width: 60%; /* Adjusted width for better form layout */
+    height: 40px;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding:  10px;
+}
+
+#sbt {
+    background-color: rgb(73, 196, 253);
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+#sbt:hover {
+    background-color: rgb(27, 183, 255);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.form a {
+    text-decoration: none;
+    color: black;
+}
+
+.form a:hover {
+    color: rgb(255, 39, 39);
+}

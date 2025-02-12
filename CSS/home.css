@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@750&display=swap');
+
+body {
+    font-family: 'Baloo Tamma 2', cursive;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+#cart {
+    height: 55px;
+    width: 55px;
+    position: relative;
+
+}
+
+#cart:hover {
+    height: 60px;
+    width: 60px;
+    transition: 0.2s;
+    margin: -2.7px;
+}
+
+.navbar-brand {
+    margin-left: 60px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the opacity as needed */
+    border-bottom: 2px solid rgba(165, 165, 165, 0.438);
+    z-index: 1000; /* Ensure the navbar is above other elements */
+}
+
+.nav-link {
+    color: rgb(22, 22, 22);
+    font-weight: bolder;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: rgb(248, 248, 248);
+}
+
+.form-control {
+    width: 210px;
+    height: 46px;
+    margin-top: 4px;
+    border-color: rgba(0, 0, 0, 0.315);
+    border-width: 2.1px;
+    border-radius: 25px;
+    font-size: large;
+    position: relative;
+    right: 10px;
+}
+
+.form-control:hover {
+    width: 219px;
+    transition: 0.2s;
+    margin-left: -9px;
+}
+
+#hover:hover {
+    font-size: 19.7px;
+    transition: 0.2s;
+    margin: -3px;
+    margin-top: 3px;
+    color: black;
+}
+
+.carousel-item {
+    position: relative;
+    left: 15%;
+}
+
+.carousel-item img {
+    height: 320px;
+    width: 70%;
+    align-items: center;
+    cursor: grab;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-control-next {
+    margin-right: 180px;
+}
+
+.carousel-control-next-icon {
+    outline: black;
+    border-radius: 11px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.551);
+}
+
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.carousel-control-prev {
+    margin-left: 170px;
+}
+
+.carousel-control-prev-icon {
+    outline: black;
+    border-radius: 11px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.551);
+}
+
+.carousel-control-prev-icon:hover {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#grid1img:hover {
+    transition: .1s;
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.btn {
+    height: 40px;
+}
+
+.btn-outline-success {
+    margin-top: 9px;
+}

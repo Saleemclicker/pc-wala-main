@@ -1,2 +1,2 @@
 # pc-wala
-College project on pc selling website
+College project on pc selling website using php javascript ajax for userverification it is your one-stop destination for building, upgrading, or customizing your dream PC. We offer a wide range of high-quality computer components, from processors and graphics cards to motherboards, RAM, storage, and peripherals. Whether you're a gamer, content creator, or tech enthusiast, our website provides an intuitive platform to browse, compare, and purchase the latest PC parts at competitive prices.
